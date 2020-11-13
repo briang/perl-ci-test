@@ -2,15 +2,15 @@
 name: CI
 
 # This means the workflow will be triggered
-# - on push to master branch
-# - when a pull request arrives to the master branch. (The source
+# - on push to main branch
+# - when a pull request arrives to the main branch. (The source
 #   branch does not matter)
 # - workflow_dispatch to trigger manually or via API call
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
   workflow_dispatch:
 
 # There is a single job here called "build" (The word "build" is NOT a
