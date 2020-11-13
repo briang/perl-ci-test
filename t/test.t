@@ -4,8 +4,8 @@
 
 use 5.022;
 
-use strict;  use warnings;  use autodie qw/:all/;
-use experimental qw(signatures);
+use strict;
+use warnings;
 
 use Test::Most qw(no_plan);
 
