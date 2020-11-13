@@ -1,8 +1,8 @@
 package Class;
 use 5.030;
 
-use strict;  use warnings;  use autodie qw/:all/;
-use experimental qw(signatures);
+use strict;
+use warnings;
 
 =head1 NAME
 
